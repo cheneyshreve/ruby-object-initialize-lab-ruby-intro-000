@@ -1,11 +1,11 @@
 class Dog
 
-def name=(dog_name)
-  @name = dog_name
+def name
+  @name = name
 end
 
-def breed=(dog_breed)
-  @breed = dog_breed
+def breed
+  @breed = breed
 end
 
  def initalize(breed)
