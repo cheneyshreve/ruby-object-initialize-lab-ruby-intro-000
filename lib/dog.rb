@@ -4,22 +4,9 @@ class Dog
     @breed = "Mutt"
  end
 
-def name=(dog_name)
-  @name = dog_name
-
-end
-
-def name
-  @name
-end
-
-def breed=(dog_breed)
-  @breed = dog_breed
-end
-
-def breed
-  @breed 
-end
-
+ def initalize(name)
+   @name = name
+ end
+ 
 
 end
